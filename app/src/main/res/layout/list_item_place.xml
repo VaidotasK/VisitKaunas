@@ -7,38 +7,30 @@
     android:orientation="horizontal">
 
     <ImageView
-        android:id="@+id/place_list_item_image"
+        android:id="@+id/place_image_imageView"
         android:layout_width="60dp"
         android:layout_height="60dp"
         android:src="@mipmap/ic_launcher"/>
 
-    <RelativeLayout
-        android:id="@+id/text_container"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_toRightOf="@id/place_list_item_image"
-        android:orientation="horizontal"
-        android:paddingLeft="16dp">
-
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:id="@+id/text_container"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
             android:gravity="center_vertical"
+            android:paddingLeft="16dp"
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/place_name_text_view"
+                android:id="@+id/place_name_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
                 tools:text="Name of the place" />
 
             <TextView
-                android:id="@+id/place_address_text_view"
+                android:id="@+id/place_address_textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:text="Address of the place" />
         </LinearLayout>
-
-    </RelativeLayout>
 </LinearLayout>
