@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingRight="12dp"
+        android:paddingLeft="12dp">
+
+        <ImageView
+            android:id="@+id/place_full_info_image"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:src="@drawable/test_img" />
+        <TextView
+            android:id="@+id/place_full_info_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Name of the place"
+            android:textSize="24sp"
+            android:layout_alignBottom="@id/place_full_info_image"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            android:background="#80000000"/>
+
+        <TextView
+            android:id="@+id/place_full_info_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Description"
+            android:layout_below="@+id/place_full_info_name"/>
+        <TextView
+            android:id="@+id/place_full_info_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Price"
+            android:layout_below="@+id/place_full_info_description"/>
+        <TextView
+            android:id="@+id/place_full_info_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Address"
+            android:layout_below="@+id/place_full_info_price"/>
+</RelativeLayout>
+
+</LinearLayout>
