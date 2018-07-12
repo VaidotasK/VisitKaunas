@@ -15,8 +15,9 @@ public class Place {
     private String address;
 
 
-    public Place(String name, String address) {
+    public Place(String name, int placeImageResourceId, String address) {
         this.name = name;
+        this.placeImageResourceId = placeImageResourceId;
         this.address = address;
     }
 
