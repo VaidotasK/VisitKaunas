@@ -29,6 +29,11 @@ public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
     }
 
     @Override
+    public int getCount() {
+        return 4;
+    }
+
+    @Override
     public Fragment getItem(int position) {
         if (0 == position) {
             return new MuseumsFragment();
@@ -43,11 +48,6 @@ public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
             return new ExtraPlacesFragment();
         }
         }
-
-    @Override
-    public int getCount() {
-        return 4;
-    }
 
     @Override
     public CharSequence getPageTitle(int position) {
