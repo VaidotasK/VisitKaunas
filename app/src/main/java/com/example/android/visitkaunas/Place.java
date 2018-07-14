@@ -5,20 +5,22 @@ public class Place {
     //Create private variables
 
     //Constants of missing variables inputs
-    static private final int NO_IMAGE = -1;
-    static final private String NO_DESCRIPTION = "";
-    static private final String NO_PRICE = "";
+    private static final int NO_IMAGE = -1;
+    private static final String NO_DESCRIPTION = "";
+    private static final String NO_PRICE = "";
     private String name;
     private int placeImageResourceId;
     private String description;
     private String price;
     private String address;
 
-
-    public Place(String name, int placeImageResourceId, String address) {
+    //    For pub Fragment
+    public Place(String name, String address, String price, String description) {
         this.name = name;
-        this.placeImageResourceId = placeImageResourceId;
+        this.placeImageResourceId = NO_IMAGE;
         this.address = address;
+        this.price = price;
+        this.description = description;
     }
 
     public Place(String name, int placeImageResourceId, String address, String price, String description) {
