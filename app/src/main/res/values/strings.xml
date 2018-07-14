@@ -1,6 +1,173 @@
 <resources>
     <string name="app_name">Visit Kaunas</string>
 
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!--Information of churches group-->
+
+    <!--Names of churches-->
+
+    <string name="church_name_1"></string>
+    <string name="church_name_2"></string>
+    <string name="church_name_3"></string>
+    <string name="church_name_4"></string>
+    <string name="church_name_5"></string>
+    <string name="church_name_6"></string>
+    <string name="church_name_7"></string>
+
+
+    <!--Addresses of the churches-->
+    <string name="church_address_1"></string>
+    <string name="church_address_2"></string>
+    <string name="church_address_3"></string>
+    <string name="church_address_4"></string>
+    <string name="church_address_5"></string>
+    <string name="church_address_6"></string>
+    <string name="church_address_7"></string>
+
+    <!--Descriptions of the churches-->
+
+    <string name="church_description_1"></string>
+    <string name="church_description_2"></string>
+    <string name="church_description_3"></string>
+    <string name="church_description_4"></string>
+    <string name="church_description_5"></string>
+    <string name="church_description_6"></string>
+    <string name="church_description_7"></string>
+
+    <!--Information of Extra Places group-->
+
+    <!--Names of Extra Places-->
+
+    <string name="extraPlace_name_1"></string>
+    <string name="extraPlace_name_2"></string>
+    <string name="extraPlace_name_3"></string>
+    <string name="extraPlace_name_4"></string>
+    <string name="extraPlace_name_5"></string>
+    <string name="extraPlace_name_6"></string>
+    <string name="extraPlace_name_7"></string>
+    <string name="extraPlace_name_8"></string>
+
+    <!--Addresses of the Extra Places-->
+
+    <string name="extraPlace_address_1"></string>
+    <string name="extraPlace_address_2"></string>
+    <string name="extraPlace_address_3"></string>
+    <string name="extraPlace_address_4"></string>
+    <string name="extraPlace_address_5"></string>
+    <string name="extraPlace_address_6"></string>
+    <string name="extraPlace_address_7"></string>
+    <string name="extraPlace_address_8"></string>
+
+    <!--Prices of the Extra Places-->
+
+    <string name="extraPlace_price_1"></string>
+    <string name="extraPlace_price_2"></string>
+    <string name="extraPlace_price_3"></string>
+    <string name="extraPlace_price_4"></string>
+    <string name="extraPlace_price_5"></string>
+    <string name="extraPlace_price_6"></string>
+    <string name="extraPlace_price_7"></string>
+    <string name="extraPlace_price_8"></string>
+
+    <!--Descriptions of the Extra Places-->
+
+    <string name="extraPlace_description_1"></string>
+    <string name="extraPlace_description_2"></string>
+    <string name="extraPlace_description_3"></string>
+    <string name="extraPlace_description_4"></string>
+    <string name="extraPlace_description_5"></string>
+    <string name="extraPlace_description_6"></string>
+    <string name="extraPlace_description_7"></string>
+    <string name="extraPlace_description_8"></string>
+
+    <!--Information of Museums group-->
+
+    <!--Names of Museums-->
+
+    <string name="museum_name_1"></string>
+    <string name="museum_name_2"></string>
+    <string name="museum_name_3"></string>
+    <string name="museum_name_4"></string>
+    <string name="museum_name_5"></string>
+    <string name="museum_name_6"></string>
+    <string name="museum_name_7"></string>
+    <string name="museum_name_8"></string>
+    <string name="museum_name_9"></string>
+
+    <!--Addresses of the Museums-->
+
+    <string name="museum_address_1"></string>
+    <string name="museum_address_2"></string>
+    <string name="museum_address_3"></string>
+    <string name="museum_address_4"></string>
+    <string name="museum_address_5"></string>
+    <string name="museum_address_6"></string>
+    <string name="museum_address_7"></string>
+    <string name="museum_address_8"></string>
+    <string name="museum_address_9"></string>
+
+    <!--Price of the Museums-->
+
+    <string name="museum_price_1"></string>
+    <string name="museum_price_2"></string>
+    <string name="museum_price_3"></string>
+    <string name="museum_price_4"></string>
+    <string name="museum_price_5"></string>
+    <string name="museum_price_6"></string>
+    <string name="museum_price_7"></string>
+    <string name="museum_price_8"></string>
+    <string name="museum_price_9"></string>
+
+    <!--Description of the Museums-->
+
+    <string name="museum_description_1"></string>
+    <string name="museum_description_2"></string>
+    <string name="museum_description_3"></string>
+    <string name="museum_description_4"></string>
+    <string name="museum_description_5"></string>
+    <string name="museum_description_6"></string>
+    <string name="museum_description_7"></string>
+    <string name="museum_description_8"></string>
+    <string name="museum_description_9"></string>
+
+    <!--Information of Pubs group-->
+
+    <!--Names of Pubs-->
+
+    <string name="pub_name_1"></string>
+    <string name="pub_name_2"></string>
+    <string name="pub_name_3"></string>
+    <string name="pub_name_4"></string>
+    <string name="pub_name_5"></string>
+    <string name="pub_name_6"></string>
+    <string name="pub_name_7"></string>
+    <string name="pub_name_8"></string>
+    <string name="pub_name_9"></string>
+    <string name="pub_name_10"></string>
+
+    <!--Addresses of the Pubs-->
+
+    <string name="pub_address_1"></string>
+    <string name="pub_address_2"></string>
+    <string name="pub_address_3"></string>
+    <string name="pub_address_4"></string>
+    <string name="pub_address_5"></string>
+    <string name="pub_address_6"></string>
+    <string name="pub_address_7"></string>
+    <string name="pub_address_8"></string>
+    <string name="pub_address_9"></string>
+    <string name="pub_address_10"></string>
+
+    <!--Description of the Pubs-->
+
+    <string name="pub_description_1"></string>
+    <string name="pub_description_2"></string>
+    <string name="pub_description_3"></string>
+    <string name="pub_description_4"></string>
+    <string name="pub_description_5"></string>
+    <string name="pub_description_6"></string>
+    <string name="pub_description_7"></string>
+    <string name="pub_description_8"></string>
+    <string name="pub_description_9"></string>
+    <string name="pub_description_10"></string>
+
 </resources>
