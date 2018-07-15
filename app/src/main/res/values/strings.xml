@@ -5,29 +5,35 @@
 
     <!--Names of churches-->
 
-    <string name="church_name_1"></string>
-    <string name="church_name_2"></string>
-    <string name="church_name_3"></string>
-    <string name="church_name_4"></string>
-    <string name="church_name_5"></string>
-    <string name="church_name_6"></string>
-    <string name="church_name_7"></string>
+    <string name="church_name_1">Garrison Church</string>
+    <string name="church_name_2">Church of Vytautas the Great</string>
+    <string name="church_name_3">Christ"'"s Resurrection Church</string>
+    <string name="church_name_4">Cathedral Basilica of apostles St. Peter and St. Paul</string>
+    <string name="church_name_5">Church of St. Gertrude</string>
+    <string name="church_name_6">Holy Cross Church</string>
+    <string name="church_name_7">Pazaislis Monastery and the Church of the Visitation</string>
 
 
     <!--Addresses of the churches-->
-    <string name="church_address_1"></string>
-    <string name="church_address_2"></string>
-    <string name="church_address_3"></string>
-    <string name="church_address_4"></string>
-    <string name="church_address_5"></string>
-    <string name="church_address_6"></string>
-    <string name="church_address_7"></string>
+    <string name="church_address_1">Nepriklausomybes a. 14</string>
+    <string name="church_address_2">Aleksoto g. 3</string>
+    <string name="church_address_3">Zemaiciu g. 31a</string>
+    <string name="church_address_4">Vilniaus g. 1</string>
+    <string name="church_address_5">Laisvės al. 101a</string>
+    <string name="church_address_6">Gedimino g. 1</string>
+    <string name="church_address_7"> T. Masiulio g. 31</string>
 
     <!--Descriptions of the churches-->
 
     <string name="church_description_1"></string>
     <string name="church_description_2"></string>
-    <string name="church_description_3"></string>
+    <string name="church_description_3">Roof is open for sightseeing:\n
+        March – September:\n
+        I–V 11:30 – 18:30\n
+        VI–VII 11:00 – 18:30\n
+        October – February:\n
+        I–V 12:00 – 18:00\n
+        VI–VII 11:00 – 18:00</string>
     <string name="church_description_4"></string>
     <string name="church_description_5"></string>
     <string name="church_description_6"></string>
@@ -37,137 +43,187 @@
 
     <!--Names of Extra Places-->
 
-    <string name="extraPlace_name_1"></string>
-    <string name="extraPlace_name_2"></string>
-    <string name="extraPlace_name_3"></string>
-    <string name="extraPlace_name_4"></string>
-    <string name="extraPlace_name_5"></string>
-    <string name="extraPlace_name_6"></string>
-    <string name="extraPlace_name_7"></string>
-    <string name="extraPlace_name_8"></string>
+    <string name="extraPlace_name_1">Aleksotas Observation Deck</string>
+    <string name="extraPlace_name_2">Kaunas Casile</string>
+    <string name="extraPlace_name_3">Together we love Kaunas - Observation place</string>
+    <string name="extraPlace_name_4">Kaunas City Hall</string>
+    <string name="extraPlace_name_5">Aleksotas and Zaliakalnis funicular</string>
+    <string name="extraPlace_name_6">IX Fort</string>
+    <string name="extraPlace_name_7">Kaunas Botanical Garden</string>
+    <string name="extraPlace_name_8">Kaunas Zoo</string>
 
     <!--Addresses of the Extra Places-->
 
-    <string name="extraPlace_address_1"></string>
-    <string name="extraPlace_address_2"></string>
-    <string name="extraPlace_address_3"></string>
-    <string name="extraPlace_address_4"></string>
-    <string name="extraPlace_address_5"></string>
-    <string name="extraPlace_address_6"></string>
-    <string name="extraPlace_address_7"></string>
-    <string name="extraPlace_address_8"></string>
+    <string name="extraPlace_address_1">V.Cepinskio g.</string>
+    <string name="extraPlace_address_2">Pilies g. 17</string>
+    <string name="extraPlace_address_3">T.Daugirdo g. 2</string>
+    <string name="extraPlace_address_4">Rotuses a. 15</string>
+    <string name="extraPlace_address_5">Amerikos lietuviu g. 8 and Ausros g. 6</string>
+    <string name="extraPlace_address_6">Zemaiciu pl. 73</string>
+    <string name="extraPlace_address_7">Z.E. Zilibero g. 6</string>
+    <string name="extraPlace_address_8">Radvilėnu pl. 21</string>
 
     <!--Prices of the Extra Places-->
 
-    <string name="extraPlace_price_1"></string>
-    <string name="extraPlace_price_2"></string>
-    <string name="extraPlace_price_3"></string>
-    <string name="extraPlace_price_4"></string>
-    <string name="extraPlace_price_5"></string>
-    <string name="extraPlace_price_6"></string>
-    <string name="extraPlace_price_7"></string>
-    <string name="extraPlace_price_8"></string>
+    <string name="extraPlace_price_1">Free</string>
+    <string name="extraPlace_price_2">Adults - 2,50 EUR,\n
+        Children, students, seniors - 1,20 EUR</string>
+    <string name="extraPlace_price_3">Free</string>
+    <string name="extraPlace_price_4">Adults - 2,50 EUR,\n
+        Children, students, seniors - 1,20 EUR</string>
+    <string name="extraPlace_price_5">0,70 EUR</string>
+    <string name="extraPlace_price_6">Adults - 3 EUR\n
+        Children, students, seniors - 1,50 EUR</string>
+    <string name="extraPlace_price_7">Adults - 3 EUR\n
+        Children, students, disabled, seniors - 1 EUR</string>
+    <string name="extraPlace_price_8">Adults - 5 EUR\n
+        Children, students, disabled, seniors - 3 EUR</string>
 
     <!--Descriptions of the Extra Places-->
 
-    <string name="extraPlace_description_1"></string>
-    <string name="extraPlace_description_2"></string>
-    <string name="extraPlace_description_3"></string>
-    <string name="extraPlace_description_4"></string>
-    <string name="extraPlace_description_5"></string>
-    <string name="extraPlace_description_6"></string>
-    <string name="extraPlace_description_7"></string>
-    <string name="extraPlace_description_8"></string>
+    <string name="extraPlace_description_1">Available 24/7</string>
+    <string name="extraPlace_description_2">September - May\n
+        II-V 10:00 - 18:00, VI 10:00 - 17:00\n
+        June - August\n
+        II-VI 10:00-18:00, VII 10:00 - 16:00</string>
+    <string name="extraPlace_description_3">Available 24/7</string>
+    <string name="extraPlace_description_4">II-VI 10:00 - 18:00, VII 10:00-16:00</string>
+    <string name="extraPlace_description_5">I-V 07:00 - 19:00, VI - VII 09:00 - 19:00</string>
+    <string name="extraPlace_description_6">April - October\n
+        II-VII 10:00 - 18:00\n
+        November - March\n
+        III–VII 10:00 - 16:00</string>
+    <string name="extraPlace_description_7">Cash desk\n
+        I–VII 09:00–19:00\n
+        Garden\n
+        I–VII 9:00 – 20:00\n
+        Greenhouse\n
+        I–V 09:00 – 17:00, VI-VII 10:00–18.00</string>
+    <string name="extraPlace_description_8">November - March\n
+        I-VII 9:00 - 17:00\n
+        April - October\n
+        9:00 - 18:00</string>
 
     <!--Information of Museums group-->
 
     <!--Names of Museums-->
 
-    <string name="museum_name_1"></string>
-    <string name="museum_name_2"></string>
-    <string name="museum_name_3"></string>
-    <string name="museum_name_4"></string>
-    <string name="museum_name_5"></string>
-    <string name="museum_name_6"></string>
-    <string name="museum_name_7"></string>
-    <string name="museum_name_8"></string>
-    <string name="museum_name_9"></string>
+    <string name="museum_name_1">T. Ivanauskas Zoo Museum</string>
+    <string name="museum_name_2">Atomical Bunker</string>
+    <string name="museum_name_3">Nacional M.K.Ciurlionis Art Museum</string>
+    <string name="museum_name_4">Lithuanian Folk Music History Museum</string>
+    <string name="museum_name_5">Devils"'" Museum</string>
+    <string name="museum_name_6">Lithuanian Aviation Museum</string>
+    <string name="museum_name_7">Museum for blind people (XX sq. Catacombs)</string>
+    <string name="museum_name_8">Lithuanian medical and pharmacy History Museum</string>
+    <string name="museum_name_9">Vytautas the Great War Museum</string>
 
     <!--Addresses of the Museums-->
 
-    <string name="museum_address_1"></string>
-    <string name="museum_address_2"></string>
-    <string name="museum_address_3"></string>
-    <string name="museum_address_4"></string>
-    <string name="museum_address_5"></string>
-    <string name="museum_address_6"></string>
-    <string name="museum_address_7"></string>
-    <string name="museum_address_8"></string>
-    <string name="museum_address_9"></string>
+    <string name="museum_address_1">Rotusės a. 28, Kaunas</string>
+    <string name="museum_address_2">Raudondvario pl. 164a</string>
+    <string name="museum_address_3">V. Putvinskio g. 55</string>
+    <string name="museum_address_4">L. Zamenhofo g. 12/Kurpiu g. 12</string>
+    <string name="museum_address_5">V. Putvinskio g. 64</string>
+    <string name="museum_address_6">Veiveriu g. 132</string>
+    <string name="museum_address_7">Nepriklausomybės a. 14</string>
+    <string name="museum_address_8">Rotusės a. 28</string>
+    <string name="museum_address_9">K. Donelaicio g. 64</string>
 
     <!--Price of the Museums-->
 
-    <string name="museum_price_1"></string>
-    <string name="museum_price_2"></string>
-    <string name="museum_price_3"></string>
-    <string name="museum_price_4"></string>
-    <string name="museum_price_5"></string>
-    <string name="museum_price_6"></string>
-    <string name="museum_price_7"></string>
-    <string name="museum_price_8"></string>
-    <string name="museum_price_9"></string>
+    <string name="museum_price_1">Adults - 3 EUR\n
+        Children, students, seniors - 2 EUR</string>
+    <string name="museum_price_2">Free</string>
+    <string name="museum_price_3">Adults - 4 EUR\n
+        Children, seniors - 2 EUR</string>
+    <string name="museum_price_4">Adults - 2 EUR\n
+        Children, seniors - 1,2 EUR</string>
+    <string name="museum_price_5">Adults - 3 EUR\n
+        Children, students, seniors - 1,5 EUR</string>
+    <string name="museum_price_6">Adults - 2 EUR\n
+        Children, students, seniors - 1 EUR</string>
+    <string name="museum_price_7">Free</string>
+    <string name="museum_price_8">Adults - 2 EUR\n
+        Children, students, seniors - 1 EUR</string>
+    <string name="museum_price_9">Adults - 2 EUR\n
+        Children, students, seniors - 1 EUR</string>
 
     <!--Description of the Museums-->
 
-    <string name="museum_description_1"></string>
-    <string name="museum_description_2"></string>
-    <string name="museum_description_3"></string>
-    <string name="museum_description_4"></string>
-    <string name="museum_description_5"></string>
-    <string name="museum_description_6"></string>
-    <string name="museum_description_7"></string>
-    <string name="museum_description_8"></string>
-    <string name="museum_description_9"></string>
+    <string name="museum_description_1">II-VII 10:00 - 18:00</string>
+    <string name="museum_description_2">Must arrange visit in advance\n
+    Phone: +37068266666</string>
+    <string name="museum_description_3">II-III 11:00 - 17:00\n
+        IV 11:00 - 19:00\n
+        V-VII 11:00 - 17:00</string>
+    <string name="museum_description_4">II–V 10:00 – 18:00\n
+        VI 10:00 – 17:00</string>
+    <string name="museum_description_5">II-III 11:00 - 17:00\n
+        IV 11:00 - 19:00\n
+        V-VII 11:00 - 17:00</string>
+    <string name="museum_description_6">I-VI 09:00 - 17:00</string>
+    <string name="museum_description_7">II–IV 09:00 – 14:00\n
+        Must arrange visit in advance</string>
+    <string name="museum_description_8">II-VI 10:00 - 17:00</string>
+    <string name="museum_description_9">II-VII 10:00 – 17:00</string>
 
     <!--Information of Pubs group-->
 
     <!--Names of Pubs-->
 
-    <string name="pub_name_1"></string>
-    <string name="pub_name_2"></string>
-    <string name="pub_name_3"></string>
-    <string name="pub_name_4"></string>
-    <string name="pub_name_5"></string>
-    <string name="pub_name_6"></string>
-    <string name="pub_name_7"></string>
-    <string name="pub_name_8"></string>
-    <string name="pub_name_9"></string>
-    <string name="pub_name_10"></string>
+    <string name="pub_name_1">BO bar</string>
+    <string name="pub_name_2">Dzem"'"pub</string>
+    <string name="pub_name_3">rePUBlic</string>
+    <string name="pub_name_4">JazzBar Kaunas</string>
+    <string name="pub_name_5">Nisha bar</string>
+    <string name="pub_name_6">2½ Obuolio</string>
+    <string name="pub_name_7">Hop Doc gastropub</string>
+    <string name="pub_name_8">Peledine</string>
+    <string name="pub_name_9">Grill London</string>
+    <string name="pub_name_10">ShamRock</string>
 
     <!--Addresses of the Pubs-->
 
-    <string name="pub_address_1"></string>
-    <string name="pub_address_2"></string>
-    <string name="pub_address_3"></string>
-    <string name="pub_address_4"></string>
-    <string name="pub_address_5"></string>
-    <string name="pub_address_6"></string>
-    <string name="pub_address_7"></string>
-    <string name="pub_address_8"></string>
-    <string name="pub_address_9"></string>
-    <string name="pub_address_10"></string>
+    <string name="pub_address_1">Muitines g. 9</string>
+    <string name="pub_address_2">Laisves al. 59</string>
+    <string name="pub_address_3">Laisves al. 57</string>
+    <string name="pub_address_4">Laisves al. 70</string>
+    <string name="pub_address_5">V. Kuzmos g. 8</string>
+    <string name="pub_address_6">Palangos g. 9 </string>
+    <string name="pub_address_7">Dauksos g. 23</string>
+    <string name="pub_address_8">Sv. Gertrudos g. 22</string>
+    <string name="pub_address_9">Vilniaus g. 13</string>
+    <string name="pub_address_10">Vilniaus g. 13</string>
 
     <!--Description of the Pubs-->
 
-    <string name="pub_description_1"></string>
-    <string name="pub_description_2"></string>
-    <string name="pub_description_3"></string>
-    <string name="pub_description_4"></string>
-    <string name="pub_description_5"></string>
-    <string name="pub_description_6"></string>
-    <string name="pub_description_7"></string>
-    <string name="pub_description_8"></string>
-    <string name="pub_description_9"></string>
-    <string name="pub_description_10"></string>
+    <string name="pub_description_1">I-IV,VII 18:00 - 02:00\n
+        V-VI 18:00 - 03:00</string>
+    <string name="pub_description_2">III-IV 17:00 - 03:00\n
+        II,V-VI 17:00 - 04:00</string>
+    <string name="pub_description_3">I-IV 11:00 - 02:00\n
+        V-VI 11:00 - 06:00\n
+        VII 12:00 - 02:00</string>
+    <string name="pub_description_4">I-IV 17:00 - 23:00\n
+        V-VI 12:00 - 03:00\n
+        VII 12:00 - 22:00</string>
+    <string name="pub_description_5">I 15:00 - 21:00\n
+        II-III 15:00 - 00:00\n
+        IV-VI 15:00 - 01:00\n
+        VII 15:00 - 22:00 </string>
+    <string name="pub_description_6">II-IV 17:00 - 02:00\n
+        V 17:00 - 04:00\n
+        VI 14:00 - 04:00\n
+        VII 14:00 - 02:00</string>
+    <string name="pub_description_7">I–IV 12:00 – 24:00\n
+        V-VI 12:00 – 02:00\n
+        VII 12:00 – 22:00</string>
+    <string name="pub_description_8">I-II 11:30 - 22:00\n
+        III-IV 11:30 - 23:00\n
+        V-VI 11:30 - 01:00\n
+        VII 13:00 - 22:00</string>
+    <string name="pub_description_9">I–VII 11:00 – 24:00</string>
+    <string name="pub_description_10">I-VII 11:00 - 00:00</string>
 
 </resources>
