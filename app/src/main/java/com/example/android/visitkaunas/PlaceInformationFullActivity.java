@@ -42,7 +42,8 @@ public class PlaceInformationFullActivity extends AppCompatActivity {
                 currentPlaceImageResourceIdImageView.setImageResource(currentPlaceImageResourceId);
                 currentPlaceImageResourceIdImageView.setVisibility(View.VISIBLE);
             } else {
-                currentPlaceImageResourceIdImageView.setVisibility(View.GONE);
+                currentPlaceImageResourceIdImageView.setImageResource(R.drawable.kaunas);
+                currentPlaceImageResourceIdImageView.setVisibility(View.VISIBLE);
             }
 
             TextView currentPlaceAddressTextView = findViewById(R.id.place_full_info_address);
