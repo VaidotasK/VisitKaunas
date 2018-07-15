@@ -3,48 +3,54 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/backgroundMain"
+    android:paddingLeft="@dimen/padOrMar_M"
+    android:paddingRight="@dimen/padOrMar_M">
 
     <RelativeLayout
-        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingRight="12dp"
-        android:paddingLeft="12dp">
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/padOrMar_M">
 
         <ImageView
             android:id="@+id/place_full_info_image"
             android:layout_width="match_parent"
-            android:layout_height="185dp"
-            android:src="@drawable/test_img" />
+            android:layout_height="@dimen/heightOrWidth_L"
+            tools:src="@drawable/church_2_image" />
         <TextView
             android:id="@+id/place_full_info_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             tools:text="Name of the place"
-            android:textSize="24sp"
+            android:background="@color/blackTransparentTextView"
             android:layout_alignBottom="@id/place_full_info_image"
             android:gravity="center_horizontal"
             android:textColor="@android:color/white"
-            android:background="#80000000"/>
+            android:textSize="@dimen/textSize_XL" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/padOrMar_S">
 
         <TextView
             android:id="@+id/place_full_info_description"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             tools:text="Description"
-            android:layout_below="@+id/place_full_info_name"/>
+            style="@style/TextInfoDetailsBlack16"
+            android:textSize="@dimen/textSize_L" />
         <TextView
             android:id="@+id/place_full_info_price"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             tools:text="Price"
-            android:layout_below="@+id/place_full_info_description"/>
+            style="@style/TextInfoDetailsBlack16" />
         <TextView
             android:id="@+id/place_full_info_address"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             tools:text="Address"
-            android:layout_below="@+id/place_full_info_price"/>
-</RelativeLayout>
+            style="@style/TextInfoDetailsBlack16" />
+    </LinearLayout>
+
 
 </LinearLayout>

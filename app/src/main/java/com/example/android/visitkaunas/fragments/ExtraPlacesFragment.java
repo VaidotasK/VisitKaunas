@@ -33,6 +33,7 @@ public class ExtraPlacesFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
+//        Crete new array list of Extra places
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(getString(R.string.extraPlace_name_1), R.drawable.extra_places_1_image,
                 getString(R.string.extraPlace_address_1), getString(R.string.extraPlace_price_1),
@@ -59,19 +60,21 @@ public class ExtraPlacesFragment extends Fragment {
                 getString(R.string.extraPlace_address_8), getString(R.string.extraPlace_price_8),
                 getString(R.string.extraPlace_description_8)));
 
-
+//        Create new adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         ListView listView = rootView.findViewById(R.id.list);
-
+//        Set adapter to the list view
         listView.setAdapter(adapter);
-
+//Set onItemClickListener to open new activity and put all data needed to next activity
+// (PlaceInformationFullActivity)
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
+//                Get position of which list item is pressed
                 Place place = places.get(position);
-
+//                Create new object from custom class, which purpose is collect EXTRAS and send to
+// new intent (PlaceInformationFullActivity)
                 InformationFullExtraProvider informationFullExtraProvider =
                         new InformationFullExtraProvider();
                 informationFullExtraProvider.provideExtraForInformationFullActivity(getContext(),

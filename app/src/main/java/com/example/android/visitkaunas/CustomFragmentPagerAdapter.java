@@ -16,6 +16,7 @@ import com.example.android.visitkaunas.fragments.PubsFragment;
  */
 public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
 
+    //    An array of fragments titles
     private String tabFragmentTitles[] = new String[] {"Museums", "Churches", "Pubs", "Extra Places"};
 
     /**
@@ -28,27 +29,33 @@ public class CustomFragmentPagerAdapter extends FragmentPagerAdapter {
         super(fm);
     }
 
+    /**
+     * Return the total number of pages. Counts from 1 to n.
+     */
     @Override
     public int getCount() {
         return 4;
     }
 
+    /**
+     * Return the {@link Fragment} that should be displayed for the given page number.
+     */
     @Override
     public Fragment getItem(int position) {
         if (0 == position) {
             return new MuseumsFragment();
-        }
-            else if(1 == position){
-                return new ChurchesFragment();
-            }
-            else if(2 == position) {
+        } else if(1 == position){
+            return new ChurchesFragment();
+        } else if(2 == position) {
             return new PubsFragment();
-        }
-        else {
+        } else {
             return new ExtraPlacesFragment();
         }
-        }
+    }
 
+    /**
+     * Returns fragment title depending on users position
+     */
     @Override
     public CharSequence getPageTitle(int position) {
         return tabFragmentTitles[position];

@@ -32,7 +32,7 @@ public class PubsFragment extends Fragment {
                              Bundle savedInstanceState) {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
-
+//        Create list of pubs
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(getString(R.string.pub_name_1), getString(R.string.pub_address_1), "", getString(R.string.pub_description_1)));
         places.add(new Place(getString(R.string.pub_name_2), getString(R.string.pub_address_2), "", getString(R.string.pub_description_2)));
@@ -45,19 +45,21 @@ public class PubsFragment extends Fragment {
         places.add(new Place(getString(R.string.pub_name_9), getString(R.string.pub_address_9), "", getString(R.string.pub_description_9)));
         places.add(new Place(getString(R.string.pub_name_10), getString(R.string.pub_address_10), "", getString(R.string.pub_description_10)));
 
-
+//        Create new adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
 
         ListView listView = rootView.findViewById(R.id.list);
-
+//        Set adapter to the list view
         listView.setAdapter(adapter);
-
+//Set onItemClickListener to open new activity and put all data needed to next activity
+// (PlaceInformationFullActivity)
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
-
+//                Get position of which list item is pressed
                 Place place = places.get(position);
-
+//                Create new object from custom class, which purpose is collect EXTRAS and send to
+// new intent (PlaceInformationFullActivity)
                 InformationFullExtraProvider informationFullExtraProvider =
                         new InformationFullExtraProvider();
                 informationFullExtraProvider.provideExtraForInformationFullActivity(getContext(),

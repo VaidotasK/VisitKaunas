@@ -4,5 +4,7 @@
     android:layout_height="match_parent"
     android:drawSelectorOnTop="true"
     android:id="@+id/list"
-    android:orientation="vertical"/>
+    android:background="@color/backgroundMain"
+    android:orientation="vertical"
+    android:padding="@dimen/padOrMar_L" />
 

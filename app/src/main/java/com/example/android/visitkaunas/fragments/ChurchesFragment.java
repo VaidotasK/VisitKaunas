@@ -34,6 +34,7 @@ public class ChurchesFragment extends Fragment {
 
         View rootView = inflater.inflate(R.layout.place_list, container, false);
 
+//        Create list of churches
         final ArrayList<Place> places = new ArrayList<Place>();
         places.add(new Place(getString(R.string.church_name_1), R.drawable.church_1_image,
                 getString(R.string.church_address_1), "", getString(R.string.church_description_1)));
@@ -51,30 +52,37 @@ public class ChurchesFragment extends Fragment {
                 getString(R.string.church_address_7), "", getString(R.string.church_description_7)));
 
 
+//        Create new adapter
         PlaceAdapter adapter = new PlaceAdapter(getActivity(), places);
+
 
         ListView listView = rootView.findViewById(R.id.list);
 
+//        Set adapter to the list view
         listView.setAdapter(adapter);
 
-
+//Set onItemClickListener to open new activity and put all data needed to next activity
+// (PlaceInformationFullActivity)
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int position, long l) {
 
+//                Get position of which list item is pressed
                 Place place = places.get(position);
 
+//                Create new object from custom class, which purpose is collect EXTRAS and send to
+// new intent (PlaceInformationFullActivity)
                 InformationFullExtraProvider informationFullExtraProvider =
                         new InformationFullExtraProvider();
+
+//                Call custom method from custom class to store all information from clicked place
+// and start new intent
                 informationFullExtraProvider.provideExtraForInformationFullActivity(getContext(),
                         place.getPlaceName(), place.getPlaceImageResourceId(),
                         place.getPlaceAddress(), place.getPlacePrice(), place.getPlaceDescription());
 
             }
         });
-
-
-
 
         return rootView;
     }
