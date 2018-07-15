@@ -49,7 +49,7 @@ public class PlaceInformationFullActivity extends AppCompatActivity {
             currentPlaceAddressTextView.setText(currentPlaceAddress);
 
             TextView currentPlacePriceTextView = findViewById(R.id.place_full_info_price);
-            if (currentPlaceAddress.equals(NO_PRICE)) {
+            if (currentPlacePrice.equals(NO_PRICE)) {
                 currentPlacePriceTextView.setVisibility(View.GONE);
             } else {
                 currentPlacePriceTextView.setText(currentPlacePrice);
